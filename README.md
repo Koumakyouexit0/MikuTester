@@ -23,7 +23,7 @@ Just download the corresponding `.jar` file and drop it into your `mods` folder!
 Are you a buildbot?
 
 ```bash
-git clone [https://github.com/Koumakyouexit0/MikuTester.git](https://github.com/Koumakyouexit0/MikuTester.git)
+git clone https://github.com/Koumakyouexit0/MikuTester.git
 cd MikuTester
 ./gradlew build
 ```
