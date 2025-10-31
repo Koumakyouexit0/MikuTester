@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "kome/hatsunemiku/addon/mixin/ExampleMixin": {
+      "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "kome/hatsunemiku/addon/mixin/ExampleMixin": {
+        "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+      }
+    }
+  }
+}

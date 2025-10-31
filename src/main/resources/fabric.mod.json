@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mikutester",
+  "version": "${version}",
+  "name": "MikuTester",
+  "description": "MORE MORE ADDON!!!! TokaiTeio on top!",
+  "authors": [
+    "reopymiku"
+  ],
+  "contact": {
+    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template",
+    "home": "https://github.com/Koumakyouexit0/MikuTester"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "kome.hatsunemiku.addon.AddonTemplate"
+    ]
+  },
+  "mixins": [
+    "addon-template.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}", "1.21.9"],
+    "meteor-client": "*"
+  }
+}
