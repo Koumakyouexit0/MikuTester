@@ -6,7 +6,8 @@
 ##  Download
 
 You can download the latest version from the **[Releases](https://github.com/Koumakyouexit0/MikuTester/releases)** section of this repo.
-Just download the corresponding `.jar` file and drop it into your `mods` folder!
+Just download the corresponding `.jar` file and drop it into your `mods` folder! 
+(**You need Meteor Client to run it!!!**)
 
 ---
 
