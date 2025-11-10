@@ -5,7 +5,8 @@
   "name": "MikuTester",
   "description": "MORE MORE ADDON!!!! TokaiTeio on top!",
   "authors": [
-    "reopymiku"
+    "reopymiku",
+    "HatsuneAkiko"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template",
