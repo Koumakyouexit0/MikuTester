@@ -1,5 +1,6 @@
 package kome.hatsunemiku.addon;
 
+import kome.hatsunemiku.addon.modules.AutoRespawnAnchor;
 import kome.hatsunemiku.addon.modules.AutoCrystal;
 import kome.hatsunemiku.addon.modules.MaceSwap;
 import com.mojang.logging.LogUtils;
@@ -16,12 +17,14 @@ public class AddonTemplate extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category CATEGORY = new Category("MikuTester");
     public static final HudGroup HUD_GROUP = new HudGroup("MikuTester");
+    
 
     @Override
     public void onInitialize() {
         LOG.info("Miku hiding in your wifi!");
         Modules.get().add(new MaceSwap());
         Modules.get().add(new AutoCrystal());
+        Modules.get().add(new AutoRespawnAnchor());
     }
 
     @Override
