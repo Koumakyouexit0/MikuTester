@@ -1,5 +1,5 @@
 plugins {
-    id("fabric-loom") version "1.11-SNAPSHOT"
+    id("fabric-loom") version "1.12.7"
     id("com.diffplug.spotless") version "8.0.0"
 }
 
