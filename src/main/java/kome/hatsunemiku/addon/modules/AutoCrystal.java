@@ -1,5 +1,6 @@
 package kome.hatsunemiku.addon.modules;
 
+import kome.hatsunemiku.addon.MikuTester;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Categories;
@@ -162,7 +163,7 @@ public class AutoCrystal extends Module {
     private int previousSlot = -1;
 
     public AutoCrystal() {
-        super(Categories.Combat, "auto-crystal", "Automatically places and breaks end crystals.");
+        super(MikuTester.CATEGORY, "auto-crystal", "Automatically places and breaks end crystals.");
     }
 
     @Override

@@ -1,5 +1,6 @@
 package kome.hatsunemiku.addon.modules;
 
+import kome.hatsunemiku.addon.MikuTester;
 import meteordevelopment.meteorclient.events.entity.player.AttackEntityEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -95,7 +96,7 @@ public class MaceSwap extends Module {
     private ItemStack previousItem = null;
 
     public MaceSwap() {
-        super(Categories.Combat, "weapon-swap", "Automatically swaps to selected weapon when attacking entities.");
+        super(MikuTester.CATEGORY, "weapon-swap", "Automatically swaps to selected weapon when attacking entities.");
     }
 
     @Override

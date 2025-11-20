@@ -1,6 +1,6 @@
 package kome.hatsunemiku.addon.mixin;
 
-import kome.hatsunemiku.addon.AddonTemplate;
+import kome.hatsunemiku.addon.MikuTester;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import org.spongepowered.asm.mixin.Mixin;
@@ -26,6 +26,6 @@ public abstract class ExampleMixin {
      */
     @Inject(method = "<init>", at = @At("TAIL"))
     private void onGameLoaded(RunArgs args, CallbackInfo ci) {
-        AddonTemplate.LOG.info("MixinOWO!");
+        MikuTester.LOG.info("MixinOWO!");
     }
 }

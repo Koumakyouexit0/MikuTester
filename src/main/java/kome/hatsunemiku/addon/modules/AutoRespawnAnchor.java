@@ -1,5 +1,6 @@
 package kome.hatsunemiku.addon.modules;
 
+import kome.hatsunemiku.addon.MikuTester;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Categories;
@@ -187,7 +188,7 @@ public class AutoRespawnAnchor extends Module {
     private int previousSlot = -1;
 
     public AutoRespawnAnchor() {
-        super(Categories.Combat, "auto-respawn-anchor", "Automatically places, charges, and detonates respawn anchors.");
+        super(MikuTester.CATEGORY, "auto-respawn-anchor", "Automatically places, charges, and detonates respawn anchors.");
     }
 
     @Override

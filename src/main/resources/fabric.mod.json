@@ -16,7 +16,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "kome.hatsunemiku.addon.AddonTemplate"
+      "kome.hatsunemiku.addon.MikuTester"
     ]
   },
   "mixins": [
