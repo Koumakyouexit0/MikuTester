@@ -3,6 +3,8 @@ package kome.hatsunemiku.addon;
 import kome.hatsunemiku.addon.modules.AutoRespawnAnchor;
 import kome.hatsunemiku.addon.modules.AutoCrystal;
 import kome.hatsunemiku.addon.modules.MaceSwap;
+import kome.hatsunemiku.addon.modules.CrosshairAttack;
+import kome.hatsunemiku.addon.modules.SmoothAim;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -25,6 +27,9 @@ public class MikuTester extends MeteorAddon {
         Modules.get().add(new MaceSwap());
         Modules.get().add(new AutoCrystal());
         Modules.get().add(new AutoRespawnAnchor());
+        Modules.get().add(new CrosshairAttack());
+        Modules.get().add(new SmoothAim());
+
     }
 
     @Override
