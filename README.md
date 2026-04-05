@@ -1,3 +1,14 @@
+# ⚠️ Repository Moved
+
+This project has been moved to a new repository:
+
+ https://github.com/akikohatsune/MikuTester
+
+Please use the new repository for all future updates.
+
+This repository is no longer actively maintained.
+---
+
 #  MikuTester
 
 **MikuTester** is a small addon that runs on Minecraft Fabric — created to test a few features for Meteor Client.
